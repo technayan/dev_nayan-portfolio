@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter} from 'react-icons/fa';
+import {FaEnvelope, FaFacebookF, FaGithub, FaLinkedinIn, FaPhoneAlt, FaTwitter} from 'react-icons/fa';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState('');
@@ -32,10 +32,10 @@ const Navbar = () => {
                         }
                         <li className="social-links mt-10 lg:hidden">
                             <ul className='flex justify-center'>
-                                <li><a className='inline-block mx-5' href="http://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
-                                <li><a className='inline-block mx-5' href="http://facebook.com" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
-                                <li><a className='inline-block mx-5' href="http://facebook.com" target="_blank" rel="noopener noreferrer"><FaTwitter className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
-                                <li><a className='inline-block mx-5' href="http://facebook.com" target="_blank" rel="noopener noreferrer"><FaGithub className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
+                                <li><a className='inline-block mx-5' href="https://www.facebook.com/dev.nayan20" target="_blank" rel="noopener noreferrer"><FaFacebookF className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
+                                <li><a className='inline-block mx-5' href="https://www.linkedin.com/in/md-abdullah-nayan-711884220/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
+                                <li><a className='inline-block mx-5' href="https://twitter.com/dev_nayan1" target="_blank" rel="noopener noreferrer"><FaTwitter className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
+                                <li><a className='inline-block mx-5' href="https://github.com/technayan" target="_blank" rel="noopener noreferrer"><FaGithub className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
                             </ul>
                         </li>
                     </ul>

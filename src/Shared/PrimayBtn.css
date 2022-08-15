@@ -1,0 +1,18 @@
+.primary-btn::after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #2563eb;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 18px;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.primary-btn:hover::after {
+    /* width: 100px;
+    height: 100px; */
+    transform: scale(55);
+}

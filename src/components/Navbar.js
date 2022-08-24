@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {FaEnvelope, FaFacebookF, FaGithub, FaLinkedinIn, FaPhoneAlt, FaTwitter} from 'react-icons/fa';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState('');
@@ -23,7 +22,6 @@ const Navbar = () => {
                     <div className="logo">
                         <a href='#' className='font-bold text-4xl font-signature text-white hover:text-blue-600 duration-300'>Nayan</a>
                     </div>
-                
                     <ul className={`menu text-white bg-gradient-to-b from-black to-gray-800 lg:bg-transparent top-0 ${isOpen ? 'left-0' : 'left-[110%]'} absolute lg:static h-screen w-screen lg:w-auto flex flex-col lg:flex-row justify-center lg:justify-end -z-10 lg:z-0 duration-700 drop-shadow-xl`}>
                         {
                             navLink.map(link => (
@@ -37,8 +35,6 @@ const Navbar = () => {
                         <div className= {`bg-white h-[2px] my-3 w-8 duration-300 ${isOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
                     </div>
                 </div>
-            
-                
             </div>
         </nav>
     );

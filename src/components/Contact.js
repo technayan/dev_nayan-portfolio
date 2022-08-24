@@ -18,7 +18,7 @@ const Contact = () => {
                         <li><a className='inline-block mx-3' href="https://github.com/technayan" target="_blank" rel="noopener noreferrer"><FaGithub className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
                     </ul>
                 </div>
-                <form action="">
+                <form action="https://getform.io/f/4d45c317-6a77-4990-841c-e42cb31c347d" method="POST">
                     <input className="w-full my-2 p-3 bg-transparent border-2 border-gray-400 text-white focus:outline-none" type="text" name="name" placeholder='Enter your name' required/>
                     <input className="w-full my-2 p-3 bg-transparent border-2 border-gray-400 text-white focus:outline-none" type="email" name="email" placeholder='Enter your email' required/>
                     <textarea className="w-full my-2 p-3 bg-transparent border-2 border-gray-400 text-white focus:outline-none" name="message" cols="30" rows="5" placeholder='Your message' required></textarea>

@@ -12,11 +12,12 @@ const Projects = () => {
         .then(data => setProjects(data))
     }, []);
     return (
-        <section className='project-section py-14 bg-gray-900'>
-            <div className="container px-4 mx-auto">
+        <section className='project-section py-14 bg-gray-900 md:py-20'>
+            <div className="container px-4 mx-auto md:px-10">
                 <SectionTitle children={'Projects'} />
-                <div className="projects-wrapper flex flex-col gap-y-5">
+                <div className="projects-wrapper flex flex-col gap-y-5 md:gap-y-10">
                     {
+                        // Projects
                         projects.map(project => <SingleProject key={project._id} project={project}/>)
                     }
                 </div>

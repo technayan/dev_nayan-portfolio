@@ -25,7 +25,6 @@ const Navbar = () => {
                     <ul className={`menu text-white bg-gradient-to-b from-black to-gray-800 lg:bg-transparent top-0 ${isOpen ? 'left-0' : 'left-[110%]'} absolute lg:static h-screen w-screen lg:w-auto flex flex-col lg:flex-row justify-center lg:justify-end -z-10 lg:z-0 duration-700 drop-shadow-xl`}>
                         {
                             navLink.map(link => (
-                                
                                 <li key={link.id} className='text-2xl lg:text-base text-center my-3 lg:ml-8 cursor-pointer hover:text-blue-600 hover:translate-x-1 lg:hover:translate-x-0 font-medium duration-300'><a href="js:void">{link.name}</a></li>
                             ))
                         }

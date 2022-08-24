@@ -4,8 +4,8 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaLinkedinIn, FaTw
 
 const Contact = () => {
     return (
-        <section className='contact-section py-14 bg-gray-800'>
-            <div className="container px-4 mx-auto">
+        <section className='contact-section py-14 bg-gray-800 md:py-20'>
+            <div className="container px-4 mx-auto md:px-10">
                 <SectionTitle children={'Contact'} />
                 <div className="contact-info text-white">
                     <p className='flex items-center text-lg mb-5'><FaMapMarkerAlt className='text-2xl mr-3' />Tongi, Gazipur, Dhaka-1710, BD</p>

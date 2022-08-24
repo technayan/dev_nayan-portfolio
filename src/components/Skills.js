@@ -5,10 +5,12 @@ import SectionTitle from '../Shared/SectionTitle';
 
 const Skills = () => {
     return (
-        <section className='skills-section py-14 bg-gray-800'>
-            <div className="container px-4 mx-auto">
+        <section className='skills-section py-14 bg-gray-800 md:py-20'>
+            <div className="container px-4 mx-auto md:px-10">
                 <SectionTitle children={'Skills'} />
-                <div className='text-white grid grid-cols-3'>
+                
+                {/* Skills with Icons */}
+                <div className='text-white grid grid-cols-3 md:grid-cols-4'>
                     <div className='my-4 inline-block text-center py-2 shadow-lg'><FaHtml5 className='text-5xl mx-auto mb-2 text-orange-600 duration-300'/> HTML 5</div>
                     <div className='my-4 inline-block text-center py-2 shadow-lg'><FaCss3Alt className='text-5xl mx-auto mb-2 text-blue-500 duration-300'/>CSS 3</div>
                     <div className='my-4 inline-block text-center py-2 shadow-lg'><SiJavascript className='text-5xl mx-auto mb-2 text-yellow-400 duration-300'/>JavaScript</div>

@@ -31,14 +31,6 @@ const Navbar = () => {
                                 <li key={link.id} className='text-2xl lg:text-base text-center my-3 lg:ml-8 cursor-pointer hover:text-blue-600 hover:translate-x-1 lg:hover:translate-x-0 font-medium duration-300'><a href="js:void">{link.name}</a></li>
                             ))
                         }
-                        <li className="social-links mt-10 lg:hidden">
-                            <ul className='flex justify-center'>
-                                <li><a className='inline-block mx-5' href="https://www.facebook.com/dev.nayan20" target="_blank" rel="noopener noreferrer"><FaFacebookF className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
-                                <li><a className='inline-block mx-5' href="https://www.linkedin.com/in/md-abdullah-nayan-711884220/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
-                                <li><a className='inline-block mx-5' href="https://twitter.com/dev_nayan1" target="_blank" rel="noopener noreferrer"><FaTwitter className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
-                                <li><a className='inline-block mx-5' href="https://github.com/technayan" target="_blank" rel="noopener noreferrer"><FaGithub className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
-                            </ul>
-                        </li>
                     </ul>
                     <div className='cursor-pointer lg:hidden' onClick={hamburger}>
                         <div className= {`bg-white h-[2px] my-3 w-8 duration-300 ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`}></div>

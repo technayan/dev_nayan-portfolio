@@ -16,7 +16,7 @@ const ProjectDetails = ({project, status, setStatus}) => {
                     </button>
                 </div>
                 <img src={project?.imageUrl} alt={project?.name} />
-                <h3 className='text-2xl font-bold mt-4 mb-3 text-white relative'>{project?.name}<span className='absolute -top-7 left-0 text-xs font-light bg-blue-600 px-3 py-1 rounded-2xl'>{project?.stack}</span></h3>
+                <h3 className='text-2xl font-bold mt-5 mb-3 text-white relative'>{project?.name}<span className='absolute -top-8 left-0 text-xs font-light bg-blue-600 px-3 py-1 rounded-2xl'>{project?.stack}</span></h3>
                 <p className='text-justify'>{project?.description}</p>
                 <h4 className='mt-5 mb-1 font-medium text-lg text-blue-400'>Features:</h4>
                 <ol className='ml-5'>

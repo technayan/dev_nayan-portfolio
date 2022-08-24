@@ -8,7 +8,7 @@ const SingleProject = ({project}) => {
     }
     console.log(popup)
     return (
-        <div className='project p-3 border-2 text-white border-gray-700 relative'>
+        <div className='project border-2 text-white border-gray-700 relative'>
             <img src={project?.imageUrl} alt={project?.name} />
             <div className="overlay flex flex-col justify-center absolute bg-black w-full h-full top-0 px-10 left-0 opacity-0 hover:opacity-100 duration-300">
                 <h3 className='text-xl font-bold text-white text-center'>{project?.name}</h3>

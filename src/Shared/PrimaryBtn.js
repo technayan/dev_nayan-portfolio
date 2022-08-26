@@ -3,9 +3,7 @@ import './PrimayBtn.css';
 
 const PrimaryBtn = ({children}) => {
     return (
-        <>
-        <a href="https://drive.google.com/file/d/1PPkRczAxVRmK2mnZiqMkzRN_oej3BapG/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='primary-btn px-8 py-2 mr-5 border-2 border-blue-600 inline-block mt-10 font-medium text-lg relative z-10 overflow-hidden'>{children}</a>
-        </>
+        <button className='primary-btn px-6 py-2 mr-5 border-2 border-blue-600 inline-block font-medium text-lg relative z-10 overflow-hidden'>{children}</button>
     );
 };
 

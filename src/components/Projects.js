@@ -12,7 +12,7 @@ const Projects = () => {
         .then(data => setProjects(data))
     }, []);
     return (
-        <section className='project-section py-14 bg-gray-900 md:py-20'>
+        <section className='project-section py-14 bg-gradient-to-b from-gray-800 to-black md:py-20'>
             <div className="container px-4 mx-auto md:px-10">
                 <SectionTitle children={'Projects'} />
                 <div className="projects-wrapper flex flex-col gap-y-5 md:gap-y-10">

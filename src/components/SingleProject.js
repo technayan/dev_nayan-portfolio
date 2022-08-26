@@ -13,12 +13,12 @@ const SingleProject = ({project}) => {
             <img src={project?.imageUrl} alt={project?.name} />
 
             {/* Overlay */}
-            <div className="overlay flex flex-col justify-center absolute bg-black w-full h-full top-0 px-10 left-0 opacity-0 hover:opacity-100 duration-300">
+            <div className="overlay flex flex-col justify-center absolute bg-black/90 w-full h-full top-0 px-10 left-0 opacity-0 hover:opacity-100 duration-300">
                 {/* Project Title */}
-                <h3 className='text-xl font-bold text-white text-center md:text-2xl'>{project?.name}</h3>
+                <h3 className='text-xl font-bold text-white text-center mb-5 md:text-2xl'>{project?.name}</h3>
                 
                 {/* Project Description */}
-                <p className='text-center text-sm mt-1 mb-4 md:text-base'>{project?.description.slice(0,50)}...</p>
+                <p className='text-center text-sm mt-1 mb-4 hidden sm:block md:text-base '>{project?.description.slice(0,50)}...</p>
                 
                 {/* Project Action Buttons */}
                 <div className="flex justify-between gap-3">

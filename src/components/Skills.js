@@ -5,7 +5,7 @@ import SectionTitle from '../Shared/SectionTitle';
 
 const Skills = () => {
     return (
-        <section className='skills-section py-14 bg-gray-800 md:py-20'>
+        <section className='skills-section py-14 bg-gradient-to-b from-black to-gray-800 md:py-20'>
             <div className="container px-4 mx-auto md:px-10">
                 <SectionTitle children={'Skills'} />
                 

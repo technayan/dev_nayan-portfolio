@@ -6,7 +6,7 @@ import SectionTitle from '../Shared/SectionTitle';
 
 const About = () => {
     return (
-        <section className='about-section py-14 bg-gray-900 md:py-20'>
+        <section className='about-section py-14 bg-gradient-to-b from-gray-800 to-black md:py-20'>
             <div className="container px-4 mx-auto md:px-10">
                 <SectionTitle children={'About'} />
                 <div className="md:flex md:gap-10 md:items-center">

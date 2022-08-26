@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState('');
+    const [isOpen, setIsOpen] = useState(false);
+    console.log(isOpen);
 
     const hamburger = () => {
-        setIsOpen(isOpen ? '' : 'true');
+        setIsOpen(!isOpen);
     }
 
     const navLink = [
@@ -16,20 +17,20 @@ const Navbar = () => {
     ]
 
     return (
-        <nav className="bg-black p-3 fixed top-0 w-full z-50">
-            <div className="container px-1 mx-auto">
+        <nav className="bg-black py-3 fixed top-0 w-full z-50 lg:py-4">
+            <div className="container px-4 mx-auto md:px-8">
                 <div className="flex items-center justify-between">
                     <div className="logo">
                         <a href='#' className='font-bold text-4xl font-signature text-white hover:text-blue-600 duration-300'>Nayan</a>
                     </div>
-                    <ul className={`menu text-white bg-gradient-to-b from-black to-gray-800 lg:bg-transparent top-0 ${isOpen ? 'left-0' : 'left-[110%]'} absolute lg:static h-screen w-screen lg:w-auto flex flex-col lg:flex-row justify-center lg:justify-end -z-10 lg:z-0 duration-700 drop-shadow-xl`}>
+                    <ul className={`menu text-white bg-gradient-to-b from-black to-gray-800 top-0 ${isOpen ? 'left-0 lg:left-2/3 lg:w-1/3' : 'left-[110%]'} absolute h-screen w-screen flex flex-col justify-center -z-10 duration-700 drop-shadow-xl lg:drop-shadow-2xl`}>
                         {
                             navLink.map(link => (
-                                <li key={link.id} className='text-2xl lg:text-base text-center my-3 lg:ml-8 cursor-pointer hover:text-blue-600 hover:translate-x-1 lg:hover:translate-x-0 font-medium duration-300'><a href="js:void">{link.name}</a></li>
+                                <li key={link.id} className='text-2xl text-center my-3 cursor-pointer hover:text-blue-600 font-medium duration-300'><a href="js:void" onClick={hamburger}>{link.name}</a></li>
                             ))
                         }
                     </ul>
-                    <div className='cursor-pointer lg:hidden' onClick={hamburger}>
+                    <div className='cursor-pointer' onClick={() => setIsOpen(!isOpen)}>
                         <div className= {`bg-white h-[2px] my-3 w-8 duration-300 ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`}></div>
                         <div className= {`bg-white h-[2px] my-3 w-8 duration-300 ${isOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
                     </div>

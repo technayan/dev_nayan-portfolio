@@ -7,10 +7,10 @@ const Skills = () => {
     return (
         <section className='skills-section py-14 bg-gradient-to-b from-black to-gray-800 md:py-20'>
             <div className="container px-4 mx-auto md:px-10">
-                <SectionTitle children={'Skills'} />
+                <SectionTitle children={'My Skills'} />
                 
                 {/* Skills with Icons */}
-                <div className='text-white grid grid-cols-3 md:grid-cols-4'>
+                <div className='text-white grid grid-cols-3 md:grid-cols-4 md:gap-x-3 lg:grid-cols-6 lg:gap-x-5'>
                     <div className='my-4 inline-block text-center py-2 shadow-lg'><FaHtml5 className='text-5xl mx-auto mb-2 text-orange-600 duration-300'/> HTML 5</div>
                     <div className='my-4 inline-block text-center py-2 shadow-lg'><FaCss3Alt className='text-5xl mx-auto mb-2 text-blue-500 duration-300'/>CSS 3</div>
                     <div className='my-4 inline-block text-center py-2 shadow-lg'><SiJavascript className='text-5xl mx-auto mb-2 text-yellow-400 duration-300'/>JavaScript</div>

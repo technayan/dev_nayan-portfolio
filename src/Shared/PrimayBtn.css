@@ -12,7 +12,5 @@
 }
 
 .primary-btn:hover::after {
-    /* width: 100px;
-    height: 100px; */
     transform: scale(55);
 }

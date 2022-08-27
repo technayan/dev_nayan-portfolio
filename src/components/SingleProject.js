@@ -11,6 +11,9 @@ const SingleProject = ({project}) => {
             {/* Project Image */}
             <img src={project?.imageUrl} alt={project?.name} />
 
+            {/* Project Stack */}
+            <span className='absolute text-sm bg-blue-600 px-4 py-1 rounded-full top-5 right-2 md:top-8 lg:top-5 2xl:text-2xl 2xl:top-8 2xl:px-8 2xl:py-3'>{project?.stack}</span>
+
             {/* Overlay */}
             <div className="overlay flex flex-col justify-center absolute bg-black/90 w-full h-full top-0 px-10 left-0 opacity-0 hover:opacity-100 duration-300">
                 {/* Project Title */}

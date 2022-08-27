@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import ProfileImg from '../dev_nayan.png';
 import SectionTitle from '../Shared/SectionTitle';
 
@@ -19,7 +20,7 @@ const About = () => {
                         <p className="about-text text-lg text-justify text-white 2xl:text-2xl">I am Abdullah Al Mamun Nayan, a professional and dedicated Jr. Web Developer. I love to learn new technologies, create websites and web applications. I want to build a successful career in the full stack development sector. Because, coding is my passion.</p>
                     
                         {/* About Action Button */}
-                        <button className='mt-10 px-6 py-2 bg-blue-600 hover:bg-blue-700 duration-300 font-medium text-lg lg:px-8 text-white block mx-auto md:ml-0 2xl:text-2xl 2xl:py-5'>Contact Me</button>
+                        <button><Link to='Contact' smooth duration={500} className='mt-10 px-6 py-2 bg-blue-600 hover:bg-blue-700 duration-300 font-medium text-lg lg:px-8 text-white block mx-auto md:ml-0 2xl:text-2xl 2xl:py-5'>Contact Me</Link></button>
                     </div>
                 </div>
             </div>

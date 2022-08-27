@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    console.log(isOpen);
 
     const hamburger = () => {
         setIsOpen(!isOpen);

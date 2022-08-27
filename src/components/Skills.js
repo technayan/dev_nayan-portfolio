@@ -11,18 +11,18 @@ const Skills = () => {
                 
                 {/* Skills with Icons */}
                 <div className='text-white grid grid-cols-3 md:grid-cols-4 md:gap-x-3 lg:grid-cols-6 lg:gap-x-5'>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><FaHtml5 className='text-5xl mx-auto mb-2 text-orange-600 duration-300'/> HTML 5</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><FaCss3Alt className='text-5xl mx-auto mb-2 text-blue-500 duration-300'/>CSS 3</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><SiJavascript className='text-5xl mx-auto mb-2 text-yellow-400 duration-300'/>JavaScript</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><FaSass className='text-5xl mx-auto mb-2 text-pink-500 duration-300'/>SASS</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><FaBootstrap className='text-5xl mx-auto mb-2 text-violet-600 duration-300'/>Bootstrap</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><SiTailwindcss className='text-5xl mx-auto mb-2 text-blue-500 duration-300'/>Tailwind</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><FaReact className='text-5xl mx-auto mb-2 text-blue-400 duration-300'/>React JS</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><FaNodeJs className='text-5xl mx-auto mb-2 text-green-600 duration-300'/>Node JS</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><SiExpress className='text-5xl mx-auto mb-2 text-white duration-300'/>Express JS</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><SiMongodb className='text-5xl mx-auto mb-2 text-green-400 duration-300'/>MongoDB</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><FaGithub className='text-5xl mx-auto mb-2 text-white duration-300'/>GitHub</div>
-                    <div className='my-4 inline-block text-center py-2 shadow-lg'><SiFirebase className='text-5xl mx-auto mb-2 text-yellow-500 duration-300'/>Firebase</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><FaHtml5 className='text-5xl mx-auto mb-2 text-orange-600 duration-300 2xl:text-7xl 2xl:mb-5'/> HTML 5</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><FaCss3Alt className='text-5xl mx-auto mb-2 text-blue-500 duration-300 2xl:text-7xl 2xl:mb-5'/>CSS 3</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><SiJavascript className='text-5xl mx-auto mb-2 text-yellow-400 duration-300 2xl:text-7xl 2xl:mb-5'/>JavaScript</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><FaSass className='text-5xl mx-auto mb-2 text-pink-500 duration-300 2xl:text-7xl 2xl:mb-5'/>SASS</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><FaBootstrap className='text-5xl mx-auto mb-2 text-violet-600 duration-300 2xl:text-7xl 2xl:mb-5'/>Bootstrap</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><SiTailwindcss className='text-5xl mx-auto mb-2 text-blue-500 duration-300 2xl:text-7xl 2xl:mb-5'/>Tailwind</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><FaReact className='text-5xl mx-auto mb-2 text-blue-400 duration-300 2xl:text-7xl 2xl:mb-5'/>React JS</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><FaNodeJs className='text-5xl mx-auto mb-2 text-green-600 duration-300 2xl:text-7xl 2xl:mb-5'/>Node JS</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><SiExpress className='text-5xl mx-auto mb-2 text-white duration-300 2xl:text-7xl 2xl:mb-5'/>Express JS</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><SiMongodb className='text-5xl mx-auto mb-2 text-green-400 duration-300 2xl:text-7xl 2xl:mb-5'/>MongoDB</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><FaGithub className='text-5xl mx-auto mb-2 text-white duration-300 2xl:text-7xl 2xl:mb-5'/>GitHub</div>
+                    <div className='my-4 inline-block text-center py-2 shadow-lg 2xl:text-2xl 2xl:my-6'><SiFirebase className='text-5xl mx-auto mb-2 text-yellow-500 duration-300 2xl:text-7xl 2xl:mb-5'/>Firebase</div>
                 </div>
             </div>
         </section>

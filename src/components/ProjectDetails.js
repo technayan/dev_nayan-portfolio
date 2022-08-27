@@ -9,7 +9,7 @@ const ProjectDetails = ({project, status, setStatus}) => {
     }
     return (
         <div className={`overlay ${status ? 'block' : 'hidden'} fixed top-0 left-0 bg-black/75 w-full h-full z-50`}>
-            <div className={`project px-2 pb-3 border-2 bg-gray-900 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-11/12 h-4/5 z-20 text-white border-gray-700 overflow-y-scroll md:px-3 md:pb-5 lg:px-5 lg:pb-10`}>
+            <div className={`project px-2 pb-3 border-2 bg-gray-900 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-11/12 h-4/5 z-20 text-white border-gray-700 overflow-y-scroll md:px-3 md:pb-5 lg:px-5 lg:pb-10 xl:w-10/12`}>
                 <div className="flex justify-end sticky w-full -top-1 right-0 bg-gray-900 z-20">
                     {/* Modal Close Btn */}
                     <button onClick={changeStatus} className='my-3 p-1 border-2 rounded-full text-white'>

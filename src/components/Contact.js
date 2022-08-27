@@ -4,10 +4,10 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaLinkedinIn, FaTw
 
 const Contact = () => {
     return (
-        <section className='contact-section py-14 bg-gradient-to-b from-black to-gray-800 md:py-20'>
+        <section name='Contact' className='contact-section py-14 bg-gradient-to-b from-black to-gray-800 md:py-20'>
             <div className="container px-4 mx-auto md:px-10">
                 <SectionTitle children={'Contact Me'} />
-                <div className="lg:flex items-center justify-between gap-3">
+                <div className="lg:flex items-center justify-between lg:gap-14 xl:gap-52">
                     <div className="contact-info text-white">
                         <p className='flex items-center text-lg mb-5'><FaMapMarkerAlt className='text-2xl mr-3' />Tongi, Gazipur, Dhaka-1710, BD</p>
                         <p className='flex items-center text-lg my-5'><FaPhoneAlt className='text-2xl mr-3' /><a href="tel:+8801944516122" className='hover:text-blue-600 duration-300'>+8801944516122</a></p>
@@ -19,7 +19,7 @@ const Contact = () => {
                             <li><a className='inline-block mx-3' href="https://github.com/technayan" target="_blank" rel="noopener noreferrer"><FaGithub className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1'/></a></li>
                         </ul>
                     </div>
-                    <form action="https://getform.io/f/4d45c317-6a77-4990-841c-e42cb31c347d" method="POST" >
+                    <form action="https://getform.io/f/4d45c317-6a77-4990-841c-e42cb31c347d" method="POST" className='w-full' >
                         <div className="md:flex gap-3">
                             <input className="w-full my-2 p-3 bg-transparent border-2 border-gray-400 text-white focus:outline-none md:w-2/4" type="text" name="name" placeholder='Enter your name' required/>
                             <input className="w-full my-2 p-3 bg-transparent border-2 border-gray-400 text-white focus:outline-none md:w-2/4" type="email" name="email" placeholder='Enter your email' required/>

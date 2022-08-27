@@ -3,7 +3,7 @@ import PrimaryBtn from '../Shared/PrimaryBtn';
 
 const Hero = () => {
     return (
-        <section name="home" className="bg-gradient-to-b from-black to-gray-800 pt-24 pb-20 md:pt-40 w-full lg:h-[650px]">
+        <section name="Home" className="bg-gradient-to-b from-black to-gray-800 pt-24 pb-20 md:pt-40 w-full lg:h-[650px]">
             <div className='container mx-auto px-4 md:px-8'>
                 
                 {/* Hero Text */}

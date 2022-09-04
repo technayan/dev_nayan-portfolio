@@ -159,7 +159,7 @@
         },
         {
           "id": 2,
-          "feature": "Sign in ystem"
+          "feature": "Sign in system"
         },
         {
           "id": 3,
@@ -167,7 +167,7 @@
         },
         {
           "id": 4,
-          "feature": "Cliet's reviews"
+          "feature": "Client's reviews"
         }
       ],
       "stack": "REACT JS",
@@ -197,15 +197,15 @@
       "id": 4,
       "name": "Covid-19 Tracker",
       "imageUrl": "https://i.ibb.co/Lkygrkd/Covid-19-Tracker.png",
-      "description": "Covid-19 Tracker is a tracking website. It shows the daily number of coronavirus cases, recovered, and deaths worldwide.",
+      "description": "Covid-19 Tracker is a tracking website. It shows the daily number of coronavirus cases, recovery, and deaths worldwide.",
       "features": [
         {
           "id": 1,
-          "feature": "Daily cases, recovered, and deaths worldwide"
+          "feature": "Daily cases, recovery, and deaths worldwide"
         },
         {
           "id": 2,
-          "feature": "Daily cases, recovered, and deaths of every country"
+          "feature": "Daily cases, recovery, and deaths of every country"
         },
         {
           "id": 3,

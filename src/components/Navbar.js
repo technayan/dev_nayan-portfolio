@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="container px-4 mx-auto md:px-8">
                 <div className="flex items-center justify-between">
                     <div className="logo">
-                        <a href='js:void' className='font-bold text-4xl font-signature text-white hover:text-blue-600 duration-300'>Nayan</a>
+                        <a href='https://nayan-portfolio.web.app/' className='font-bold text-4xl font-signature text-white hover:text-blue-600 duration-300'>Nayan</a>
                     </div>
                     <ul className={`menu text-white bg-gradient-to-b from-black to-gray-800 top-0 ${isOpen ? 'left-0 lg:left-2/3 lg:w-1/3' : 'left-[110%]'} absolute h-screen w-screen flex flex-col justify-center -z-10 duration-700 drop-shadow-xl lg:drop-shadow-2xl`}>
                         {

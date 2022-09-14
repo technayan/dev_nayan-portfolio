@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import ProfileImg from '../dev_nayan.png';
+import ProfileImg from '../Abdullah Al Mamun Nayan (compressed).png';
 import SectionTitle from '../Shared/SectionTitle';
 
 const About = () => {

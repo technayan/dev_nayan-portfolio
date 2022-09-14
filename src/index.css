@@ -24,6 +24,12 @@
   width: 10px;
 }
 
+@media (max-width : 576px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
 /* Track */
 ::-webkit-scrollbar-track { 
   border-radius: 10px;

@@ -14,7 +14,7 @@ const Contact = () => {
                         <p className='flex items-center text-lg my-5 2xl:text-2xl'><FaEnvelope className='text-2xl mr-3' /><a href="mailto:developer.nayan24@gmail.com" className='hover:text-blue-600 duration-300'>developer.nayan24@gmail.com</a></p>
                         <ul className='flex justify-start my-8 2xl:mt-10'>
                             <li><a className='inline-block mr-3' href="https://www.facebook.com/dev.nayan20" target="_blank" rel="noopener noreferrer"><FaFacebookF className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1 2xl:text-4xl'/></a></li>
-                            <li><a className='inline-block mx-3' href="https://www.linkedin.com/in/md-abdullah-nayan-711884220/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1 2xl:text-4xl'/></a></li>
+                            <li><a className='inline-block mx-3' href="https://www.linkedin.com/in/md-abdullah-nayan/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1 2xl:text-4xl'/></a></li>
                             <li><a className='inline-block mx-3' href="https://twitter.com/dev_nayan1" target="_blank" rel="noopener noreferrer"><FaTwitter className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1 2xl:text-4xl'/></a></li>
                             <li><a className='inline-block mx-3' href="https://github.com/technayan" target="_blank" rel="noopener noreferrer"><FaGithub className='text-white text-3xl hover:text-blue-600 duration-300 hover:-translate-y-1 2xl:text-4xl'/></a></li>
                         </ul>
